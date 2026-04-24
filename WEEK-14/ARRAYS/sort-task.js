@@ -21,13 +21,24 @@
 // console.log(number);
 
 
-let number = [8, 5, 3, 6];
-  for (let num = 0; num < number.length; num++){
-    let nextNum = number[num + 1]
-    number[num + 1] = number[num]
-    number[num] = nextNum
+// let number = [8, 5, 3, 6];
+//   for (let num = 0; num < number.length; num++){
+//     let nextNum = number[num + 1]
+//     number[num + 1] = number[num]
+//     number[num] = nextNum
 
-    num = 0;
-  }
+//     num = 0;
+//   }
 
-  console.log(number)
+//   console.log(number)
+
+// FIND
+
+let fruits = [["mango", "Guava"], ["Pear", "Pinapple"], "Mango", "Orange"]
+
+let mango = fruits.find((fruit, index) =>{
+  console.log(fruit, index)
+  return fruit == "mango"
+})
+
+console.log(mango)
