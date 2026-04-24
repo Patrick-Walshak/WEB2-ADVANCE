@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>X UI Clone</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <!-- LEFT SIDEBAR -->
+      <aside class="sidebar-left">
+        <div class="sidebar-inner">
+          <div class="logo">
+            <div class="logo-x">X</div>
+          </div>
+
+          <nav class="nav-main">
+            <a href="#" class="nav-item active">
+              <i class="bx bx-home-alt-2 nav-icon"></i>
+              <span class="nav-label">Home</span>
+            </a>
+            <a href="#" class="nav-item">
+              <i class="bx bx-search nav-icon"></i>
+              <span class="nav-label">Explore</span>
+            </a>
+            <a href="#" class="nav-item">
+              <i class="bx bx-bell nav-icon"></i>
+              <span class="nav-label">Notifications</span>
+            </a>
+            <a href="#" class="nav-item">
+              <i class="bx bx-message-rounded-dots nav-icon"></i>
+              <span class="nav-label">Chat</span>
+            </a>
+            <a href="#" class="nav-item">
+              <i class="bx bx-brain nav-icon"></i>
+              <span class="nav-label">Grok</span>
+            </a>
+            <a href="#" class="nav-item">
+              <i class="bx bx-bookmark nav-icon"></i>
+              <span class="nav-label">Bookmarks</span>
+            </a>
+            <a href="#" class="nav-item">
+              <i class="bx bx-video nav-icon"></i>
+              <span class="nav-label">Creator Studio</span>
+            </a>
+            <a href="#" class="nav-item">
+              <i class="bx bx-badge-check nav-icon"></i>
+              <span class="nav-label">Premium</span>
+            </a>
+            <a href="#" class="nav-item">
+              <i class="bx bx-user nav-icon"></i>
+              <span class="nav-label">Profile</span>
+            </a>
+            <a href="#" class="nav-item">
+              <i class="bx bx-dots-horizontal-rounded nav-icon"></i>
+              <span class="nav-label">More</span>
+            </a>
+          </nav>
+
+          <button class="btn-post">Post</button>
+
+          <div class="user-mini">
+            <div class="avatar-small">P</div>
+            <div class="user-meta">
+              <div class="user-name">Patrick Walshak</div>
+              <div class="user-handle">@wallex002</div>
+            </div>
+            <div class="user-options">⋯</div>
+          </div>
+        </div>
+      </aside>
+
+      <!-- MAIN FEED -->
+      <main class="main-feed">
+        <header class="top-tabs">
+          <button class="tab active">For you</button>
+          <button class="tab">Following</button>
+          <button class="tab tab-right">Active X Creators</button>
+        </header>
+
+        <section class="composer">
+          <div class="composer-avatar">W</div>
+          <div class="composer-main">
+            <div class="composer-input">What’s happening?</div>
+            <div class="composer-footer">
+              <div class="composer-icons">
+                <i class="bx bx-image-alt"></i>
+                <i class="bx bx-gif"></i>
+                <i class="bx bx-bar-chart-alt-2"></i>
+                <i class="bx bx-smile"></i>
+                <i class="bx bx-calendar-event"></i>
+                <i class="bx bx-map"></i>
+              </div>
+              <button class="btn-post-small">Post</button>
+            </div>
+          </div>
+        </section>
+
+        <section class="divider show-posts">
+          <span>Show 208 posts</span>
+        </section>
+
+        <!-- MAIN TWEET -->
+        <article class="tweet-card">
+          <div class="tweet-avatar">
+            <img class="avatar-photo" src="img/HAsqUf3aoAAhyki.jpeg" alt="avatar" />
+          </div>
+          <div class="tweet-main">
+            <header class="tweet-header">
+              <div class="tweet-author">
+                <span class="name">Innovatively_Gemini UX King</span>
+                <span class="handle">@ProfessoGemini · 4h</span>
+              </div>
+              <div class="tweet-more">⋯</div>
+            </header>
+            <div class="tweet-body">
+              <p>
+                Officially inaugurated as the Public Relations Officer of my department
+                last week. (I’m 6 months in already)
+              </p>
+              <p>The work so far? A lot</p>
+              <p>But a lot of my plans are already coming to fruition ✨🥳</p>
+
+              <!-- MAIN POST IMAGE -->
+              <div class="tweet-image">
+                <img
+                  src="img/HAsqUf3aoAAhyki.jpeg"
+                  alt="Post image"
+                />
+              </div>
+            </div>
+            <footer class="tweet-footer">
+              <div class="tweet-stat">
+                <span>💬</span>
+                <span>4</span>
+              </div>
+              <div class="tweet-stat">
+                <span>🔁</span>
+                <span>2</span>
+              </div>
+              <div class="tweet-stat">
+                <span>❤️</span>
+                <span>25</span>
+              </div>
+              <div class="tweet-stat">
+                <span>👁️</span>
+                <span>384</span>
+              </div>
+              <div class="tweet-stat">
+                <span>↗</span>
+              </div>
+            </footer>
+          </div>
+        </article>
+
+        <!-- SECOND TWEET (PROMOTED) -->
+        <article class="tweet-card promoted">
+          <div class="tweet-avatar visa">
+            <div class="avatar-img">V</div>
+          </div>
+          <div class="tweet-main">
+            <header class="tweet-header">
+              <div class="tweet-author">
+                <span class="name">Visa</span>
+                <span class="handle">@Visa · Promoted</span>
+              </div>
+              <div class="tweet-more">⋯</div>
+            </header>
+            <div class="tweet-body">
+              <p>Designing your SBLX weekend.</p>
+              <div class="tweet-image placeholder"></div>
+            </div>
+          </div>
+        </article>
+      </main>
+
+      <!-- RIGHT SIDEBAR -->
+      <aside class="sidebar-right">
+        <div class="sidebar-right-inner">
+          <div class="search-wrapper">
+            <input
+              class="search-input"
+              placeholder="Search"
+              type="text"
+              aria-label="Search"
+            />
+          </div>
+
+          <section class="panel promo">
+            <div class="panel-top">
+              <div class="panel-header">New: Make videos in seconds</div>
+              <button class="panel-close" aria-label="Close">×</button>
+            </div>
+            <div class="panel-body">
+              <p>Generate epic images &amp; videos in cinematic quality.</p>
+              <button class="btn-ghost">Try Grok Imagine 1.0</button>
+            </div>
+          </section>
+
+          <section class="panel live-on-x">
+            <div class="panel-top">
+              <div class="panel-header">Live on X</div>
+            </div>
+            <div class="panel-list">
+              <div class="panel-item">
+                <div class="live-row">
+                  <div class="live-left">
+                    <div class="live-avatar">
+                      <img src="img/HAsqUf3aoAAhyki.jpeg" alt="avatar" />
+                    </div>
+                    <div class="item-main">
+                      <div class="item-title">Rojas <span class="dot">•</span> <span class="live-state">is speaking</span></div>
+                      <div class="item-sub">Gain 1k verified followers/advertise…</div>
+                    </div>
+                  </div>
+                  <div class="live-right">
+                    <div class="live-group">
+                      <img src="img/HAsqUf3aoAAhyki.jpeg" alt="avatar" />
+                      <img src="img/HAsqUf3aoAAhyki.jpeg" alt="avatar" />
+                      <img src="img/HAsqUf3aoAAhyki.jpeg" alt="avatar" />
+                    </div>
+                    <div class="pill">+1.1K</div>
+                  </div>
+                </div>
+              </div>
+              <div class="panel-item">
+                <div class="live-row">
+                  <div class="live-left">
+                    <div class="live-avatar">
+                      <img src="img/HAsqUf3aoAAhyki.jpeg" alt="avatar" />
+                    </div>
+                    <div class="item-main">
+                      <div class="item-title">Queen Ronky <span class="dot">•</span> <span class="live-state">is speaking</span></div>
+                      <div class="item-sub">Gain 300 followers on X hourly</div>
+                    </div>
+                  </div>
+                  <div class="live-right">
+                    <div class="live-group">
+                      <img src="img/HAsqUf3aoAAhyki.jpeg" alt="avatar" />
+                      <img src="img/HAsqUf3aoAAhyki.jpeg" alt="avatar" />
+                    </div>
+                    <div class="pill">+76</div>
+                  </div>
+                </div>
+              </div>
+              <div class="panel-item">
+                <div class="live-row">
+                  <div class="live-left">
+                    <div class="live-avatar">
+                      <img src="img/HAsqUf3aoAAhyki.jpeg" alt="avatar" />
+                    </div>
+                    <div class="item-main">
+                      <div class="item-title">10X <span class="dot">•</span> <span class="live-state">is hosting</span></div>
+                      <div class="item-sub">Is first impression a yardstick</div>
+                    </div>
+                  </div>
+                  <div class="live-right">
+                    <div class="live-group">
+                      <img src="img/HAsqUf3aoAAhyki.jpeg" alt="avatar" />
+                      <img src="img/HAsqUf3aoAAhyki.jpeg" alt="avatar" />
+                    </div>
+                    <div class="pill">+25</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="panel news">
+            <div class="panel-top">
+              <div class="panel-header">Today’s News</div>
+              <button class="panel-close" aria-label="Close">×</button>
+            </div>
+            <div class="panel-list">
+              <div class="panel-item vertical">
+                <div class="item-title">
+                  Nigerian Streamer Kolu Flexes UK Life in Hilarious Videos
+                </div>
+                <div class="item-sub">20 hours ago · Other · 1,399 posts</div>
+              </div>
+              <div class="panel-item vertical">
+                <div class="item-title">
+                  Nigerian Influencer’s Sub Cancellation Sparks X Growth Debate
+                </div>
+                <div class="item-sub">21 hours ago · Other · 6,081 posts</div>
+              </div>
+              <div class="panel-item vertical">
+                <div class="item-title">
+                  Real Madrid Beats Valencia 2–0 to Close Gap on Barcelona
+                </div>
+                <div class="item-sub">2 hours ago · Sports · 12,210 posts</div>
+              </div>
+            </div>
+          </section>
+
+          <section class="panel happening">
+            <div class="panel-top">
+              <div class="panel-header">What’s happening</div>
+            </div>
+            <div class="panel-list">
+              <div class="panel-item vertical">
+                <div class="item-title">Trending in Nigeria</div>
+                <div class="item-sub">#Tech · 12.1K posts</div>
+              </div>
+              <div class="panel-item vertical">
+                <div class="item-title">Sports · Trending</div>
+                <div class="item-sub">Champions League · 82.3K posts</div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </aside>
+    </div>
+
+    <!-- FLOATING ACTION BUTTONS (bottom-right) -->
+    <div class="float-actions" aria-hidden="true">
+      <button class="fab">
+        <span class="fab-icon">✒</span>
+      </button>
+      <button class="fab">
+        <span class="fab-icon">✉</span>
+      </button>
+    </div>
+  </body>
+</html>
+

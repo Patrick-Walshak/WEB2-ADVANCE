@@ -1,0 +1,249 @@
+body {
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-container{
+    display: flex;
+    background-color: #f8f5f0;
+}
+
+.container{
+    display: flex;
+    min-height: 100vh;
+}
+
+.side-bar{
+    background-color: black;
+    color: white;
+    /* min-width: 100vh; */
+    width: 250px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.bars{
+    /* margin-right: 100px; */
+    margin: 30px;
+}
+
+.top{
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.icon1{
+    display: flex;
+    align-items: center;
+    
+}
+
+.top-bar{
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+
+
+
+.content{
+    display: flex;
+    gap: 20px;
+}
+
+.content-one{
+    background-color: black;
+    padding: 40px;
+    width: 300px;
+    color: white;
+    border-radius: 10px;
+}
+
+.content-two{
+    background-color: white;
+    padding: 40px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.content-tree{
+    background-color: white;
+    padding: 40px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.word{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.current{
+    font-size: small;
+}
+
+
+/* All containers */
+.all-containers{
+    display: flex;
+    margin-top: 20px;
+}
+
+.first-box{
+    background-color: white;
+    border-radius: 10px;
+    width: 700px;
+    height: 200px;
+    display: flex;
+}
+
+.work{
+    /* display: flex; */
+    padding: 0px;
+    margin: 10px;
+    margin-left: 25px;
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+.container-div{
+    display: flex;
+    gap: 20px;
+}
+
+.ticket{
+    display: flex;
+    gap: 20px;
+}
+.style{
+    background-color: #f8f5f0;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+
+
+.liness{
+    background-color: green;
+    width: 5px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.second-box{
+    background-color: white;
+    border-radius: 10px;
+    width: 650px;
+    height: 280px;
+    padding: 27px;
+}
+
+.color{
+    color: green;
+}
+
+.kesh{
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+}
+
+.all{
+    display: flex;
+    justify-content: space-between;
+}
+
+.third-box{
+    background-color: white;
+    border-radius: 10px;
+    width: 430px;
+    height: 220px;
+    margin-left: 37px;
+    padding: 25px;
+}
+
+.gets{
+    display: flex;
+    justify-content: space-between;
+}
+.three{
+    display: flex;
+    justify-content: center;
+    gap: 15%;
+    margin-top: 10px;
+}
+
+.limited{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.pie-chart{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 50%;
+    margin-top: 26px;
+    display: flex;
+    justify-self: center;
+}
+
+.x-chart{
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(red, blue, green);
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.see{
+    display: flex;
+
+}
+
+.fourth-box{
+    background-color: white;
+    border-radius: 10px;
+    width: 430px;
+    height: 214px;
+    margin-left: 37px;
+    padding: 25px;
+
+}
+
+.ring{
+    display: flex;
+    justify-content: space-between;
+}
+
+.soon1{
+    margin-top: 15px;
+    background-color: #f8f5f0;
+    padding: 15px;display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+
+.image-div img{
+    width: 30px;
+    border-radius: 50px;
+}
+
+.image-div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

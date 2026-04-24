@@ -1,0 +1,74 @@
+****************Clone the project*****************
+git clone https://github.com/TEAM/PROJECT.git
+cd PROJECT
+
+***************Pull the latest work***************
+git pull
+
+****************Create your own branch*************
+git checkout -b footer
+
+****************comfirm your branch**************
+git branch
+* footer
+  main
+
+**************save your work*******************
+git add .
+git commit -m "Added website footer"
+
+*************Push your branch (not main)******************
+git push origin footer
+
+**********to see complet work****************
+git checkout main
+git pull
+git push origin main
+
+
+how to structure your HTML folder should look like in multiple files  
+
+research on other was to we can link HTML pages together
+
+
+what your though on html and what do u thiink about HTML
+tell me about the web and how does html come in to place before explaining the html 
+
+. Inline Styling ====Inside opening tag of the HTML element
+Internal Styling ===== is written in the head tag 
+External Styling ===== In a separate .css file, linked to the HTML file.
+
+a class a grpup of element that is use to style 
+
+BOX MIDEL
+                                -----------------------
+                                |                     |
+                                |                     |
+                                |                     |
+                                |                     |
+                                |                     |
+                                |                     |
+                                -----------------------
+types of border ====  solid, dollet, dash
+
+selectors
+classes
+box model
+grid
+flex boxanimation and transition
+unit of measure
+
+go and designe a simple form 
+designe a login form it should have username email and password and a submit button
+
+different between flexbox and grid
+
+flexbox==== is one dimentional layout row and column
+grid ===== is two dimentional payout row and column
+
+CSS POSITIONING PROPERTY DETERMIND HOW YOU ITEM ARE LAYOUT ON YOU WEBPAGE 
+
+EXAMPLE OF OSITIONING :
+
+@keyframe is a keyword that help us specified 
+STATIC: 

@@ -1,0 +1,20 @@
+number 1 === 12min
+number 2 === 1:24min
+number 3 === 52min
+number 4 === 43min
+number 5 === 37min
+
+JAVASCRIPT INTRODUCTION AND SETUP 
+
+what is the different between local server and remote server
+what are string concatination
+a function and a block of code that perform a specifice task 
+a  method is  function associating with 
+what is the different between method and fucntion 
+what is substring 
+templet string let u inject variable  into a string without having a x out using the the pluse signe to concatnate them
+type convertion
+logical operator OR || AND || NOT
+break  and continue
+switch statement 
+variable and block scop

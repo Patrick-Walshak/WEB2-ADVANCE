@@ -1,0 +1,18 @@
+WHAT YOU WILL LEARN IN THIS SOURCE
+
+* Varialbles & datatypes
+* Array  ===== are Varialbles that hold mutiple value
+* Object literal ==== are key value peers
+
+* Method from string array , object
+*, Loops for, while, of , forech, map
+* Conditionals (if, ternary & switch)   tenary====is just like a short hand of if statement and is use to asign varialbles base on condition
+* Functions(normal & arrow)=========================
+* oop(pototypes and classses) == object oriented programming is just the way of structuring your code using object.
+portotype === it allows object inherit properties from another object 
+* DOM selection  DOM mean allowing your javascript to intareact with your html file
+* DOM manipulation
+* Events just mean something that happen on the webpage 
+* Basic form validation
+
+everybdy should go and research on what make your project so special

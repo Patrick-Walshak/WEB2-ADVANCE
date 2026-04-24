@@ -1,0 +1,418 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+   
+}
+
+
+body{
+    position: relative;
+    background:
+    linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0.9)),
+    url("img/WhatsApp Image 2026-02-08 at 3.59.33 PM.jpeg");
+    background-size: cover;       
+    background-position: center;  
+    background-repeat: no-repeat;  
+    min-height: 100vh;      
+    object-fit: cover;
+    z-index: 0;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 10px;
+    align-items: center;
+    margin-top: 30px;
+    z-index: 1;
+    
+}
+
+/* .underline{
+    width: 100%;
+    border: 1px solid #f08324;
+    
+} */
+
+.nav-menu{
+    display: none;
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 10px;
+    list-style: none;
+    align-items: center;
+    z-index: 1;
+}
+
+.logo span{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: #f08324;
+}
+
+ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+button{
+    width: 140px;
+    height: 40px;
+    background-color: #f08324;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    color: white;
+}
+
+.handburger{
+    width: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: start;
+    margin-top: 150px;
+}
+
+.hero-text h1{
+    font-size: 100px;
+    font-weight: lighter;
+    color: white;
+}
+
+.hero-title span{
+     font-family: "Kumar One Outline", system-ui;
+     color: #f08324;
+}
+
+.hero-image img{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+   
+}
+
+.hero-description{
+    font-size: 20px;
+    color: white;
+}
+
+.hero-buttons{
+    display: flex;
+    margin-top: 50px;
+    gap: 10px;
+    justify-content: flex-start;
+    
+}
+
+
+.wallets-section {
+    padding: 0px 13%;
+}
+
+.wallets-section .container {
+    margin: 40px 40px;
+    margin-top: 100px;
+    
+}
+
+.section-title{
+    color: white;
+}
+
+.wallets-section .section-header div {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    color: #ec7a08;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wallets-section .section-header h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+
+.wallets-section .wallets-grid {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+    gap: 30px;
+}
+
+.wallets-grid .wallet-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #111112;
+    border-radius: 5px;
+    padding: 0px 20px;
+    padding-bottom: 20px;
+    border: 1px solid transparent;
+}
+
+.wallets-grid .wallet-card:hover {
+    cursor: pointer;
+    border:1px solid #351d04;
+    background-color: #0c0600;
+} 
+
+.wallets-grid .wallet-card p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #e5e5e9;
+    font-weight: 600;
+}
+
+.wallets-grid .wallet-icon {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wallets-grid .wallet-icon img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.wallets-grid .wallet-icon-trust img {
+    width: 50px;
+}
+
+.wallets-grid .wallet-icon-enjin img {
+    width: 50px;
+}
+
+.wallets-grid .wallet-icon-binance img {
+    width: 50px;
+}
+
+.wallets-grid .wallet-icon-coinbase img {
+    width: 50px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* RENDING AUCTION CART  */
+.section8{
+    color: white;
+}
+
+.line-minus{
+    display: flex;
+    color: #ec7a08;
+    font-size: large;
+}
+.auction-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 270px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.live h2{
+    margin-top: 10px;
+}
+
+.boxes i{
+    width: 30px;
+    height: 30px;
+    border: 1px solid wheat;
+    margin-top: 7px;
+}
+
+.cart-border{
+    width: 295px;
+    height: 500px;
+    border: 1px solid #ec7a08;
+    margin-bottom: 20px;
+}
+
+.cart-img img{
+    width: 270px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.super{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 35px;
+}
+
+.price{
+    padding: 0 35px;
+    margin-top: 10px;
+}
+
+.time{
+    width: 170px;
+    height: 40px;
+    position: absolute;
+    top: 82%;
+    left: 320px;
+    background-color: rgba(0,0,0,0.9);
+}
+
+.times{
+    width: 170px;
+    height: 40px;
+    position: absolute;
+    top: 82%;
+    left: 36%;
+    background-color: rgba(0,0,0,0.9);
+}
+
+.times p{
+    text-align: center;
+    margin-top: 8px;
+}
+
+
+.time p{
+    text-align: center;
+    margin-top: 8px;
+}
+
+.timess{
+    width: 170px;
+    height: 40px;
+    position: absolute;
+    top: 82%;
+    left: 53.8%;
+    background-color: rgba(0,0,0,0.9);
+}
+
+.timess p{
+    text-align: center;
+    margin-top: 8px;
+}
+
+.art{
+    width: 30px;
+    height: 30px;
+    background-color: #ec7a08;
+}
+.art p{
+    text-align: center;
+    margin-top: 4px;
+}
+.timesss{
+    width: 170px;
+    height: 40px;
+    position: absolute;
+    top: 82%;
+    left: 71%;
+    background-color: rgba(0,0,0,0.9);
+}
+
+.timesss p{
+    text-align: center;
+    margin-top: 8px;
+}
+
+.cart-btn button{
+    width: 140px;
+    height: 40px;
+    border: 1px solid #ec7a08;
+    position: absolute;
+    top: 97.4%;
+    left: 340px;
+}
+
+.price h3 span{
+    font-size: 10px;
+}
+
+.sanya{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 35px;
+    margin-top: 12px;
+}
+
+.cart-container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.Place p{
+    margin-top: 40px;
+    margin-left: 110px;
+    font-size: large;
+}
+
+@media (min-width: 768px) {
+    .hanburger{
+        display: none;
+        color: white;
+    }
+
+    .navbar{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .nav-menu{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        margin-top: 0;
+    }
+
+    .hero-content{
+        display: flex;
+        flex-direction: row;
+        padding: 0 270px;
+    }
+
+    .hero-buttons{
+        justify-content: flex-start;
+    }
+}
+
+@media (max-width: 430px) {
+    .hero-text h1{
+        font-size: 70px;
+    }
+
+    .navbar{
+        display: flex;
+        flex-direction: row;
+        padding: 0 15px;
+    }
+
+    .hero-content{
+        flex-direction: column;
+        
+    }
+
+    .hero-image img{
+        width: 300px;
+        flex: 1;
+    }
+
+    .wallets-grid .wallet-card{
+        display: flex;
+        flex-direction: column;
+        padding: 0 10px;
+    }
+}
