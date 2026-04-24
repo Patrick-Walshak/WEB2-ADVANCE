@@ -81,6 +81,7 @@ function buyfruit(name, qty){
 }
 console.log("Mango", 10)
 
+console.log(4**2**2)
 
 
 // let fruits = [["mango", "Guava"], ["Pear", "Pinapple"], "Mango", "Orange"]
