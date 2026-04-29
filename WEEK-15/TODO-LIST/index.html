@@ -8,29 +8,39 @@
 </head>
 <body class="bg-blue-950">
     <main>
-        <div class="w-[560px] h-[540px] border border-black mx-auto mt-44 rounded-2xl bg-gray-400">
+        <div class="w-[560px] h-[280px] border border-black mx-auto mt-44 rounded-2xl bg-gray-400">
 
             <div class=" flex justify-center mx-auto mt-5">
                 <h1 class="text-4xl font-bold font-serif">My Todo List</h1>
             </div>
 
-            <div class="flex items-center mx-auto">
+            <div class="flex items-center mx-auto gap-5">
 
-                <div class="mx-auto">
-                    <input id="task" class="w-60 h-10 border mt-8 border-black bg-white rounded-lg" type="text" placeholder="Enter task">
+                <div class="ml-10">
+                    <input id="todo-input" class="w-80 h-14 border mt-8 border-black bg-white rounded-lg pl-2" type="text" placeholder="Enter task">
                 </div>
 
-                <div id="click" class="w-10 mx-auto h-10 mt-8 border border-black rounded-lg bg-white">
-                    <button onclick="addTodo()" class="flex items-center mt-2 ml-1 cursor-pointer">Add</button>
+                <div id="click" class="w-16 h-14 mt-8 border border-black bg-blue-950 rounded-lg text-white font-bold flex items-center justify-center">
+                    <button id="add-btn" class=" cursor-pointer">Add</button>
                 </div>
 
             </div>
 
-            <div class="w-[430px] h-[300px] border mx-auto mt-10 border-black rounded-2xl bg-white">
-                
-            </div>
+            <ul id="todo-list">
 
+            </ul>
         </div>
     </main>
+
+    <script src="main.js">
+
+    </script>
 </body>
 </html>
+
+<!-- get ElementByClassName return the list of item  -->
+<!-- get ElementById return 1 id per element  -->
+
+
+
+<!-- document.querySelector("div[class ^= "task"]") -->
